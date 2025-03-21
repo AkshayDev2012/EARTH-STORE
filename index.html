@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EARTH WEBSITE</title>
+	<style type="text/css">
+
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.box
+		{
+			height: 800px;
+			width: 100%;
+			background-image: url(https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&w=400);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			display: flex;
+			align-items:center;
+			justify-content:center;		
+		}
+		.nav
+		{
+			width: 100%;
+		    height: 50px;
+		    background-color: transparent;
+		    display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+		    border: 10px;
+		    position:fixed;
+		    top:0px;
+		}
+	    ul
+		{
+			display: flex;
+		}
+		ul li
+	    {
+	    	list-style: none;
+	    	display: inline-block;
+	    }
+	    ul li a
+	    {
+	    	text-decoration: none;
+	    	padding: 20px 50px;
+	    	font-size: 40 px;
+	    	font-weight: 80px;
+	    	color: black;
+	    	border-radius: 10px;
+	    }
+	    ul li a:hover
+        {
+        	color: black;
+        	background-color: yellow;
+        	transition: 2s;
+	    }
+        h1
+        {
+	        color: black;
+	        display: flex;
+        }
+        .container
+        {
+            width: 100%;
+            height: 600px;;
+            background-color:white;
+            display: flex;
+			justify-content: space-evenly;
+			align-items: center;         
+			overflow: hidden;
+		}
+	    .box1
+        {
+            width:30%;
+            height: 400px;
+            background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+            background-image:url(https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Poster5-1000x1000.jpg);
+        }
+        #bg1
+        {
+        	height: 400px;
+        	width: 10%;
+        }
+        .box2
+        {
+            width:30%;
+            height: 400px;
+            background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+            background-image: url(https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Poster6-1000x1000.jpg);
+        }
+        #bg2
+        {
+        	height: 400px;
+        	width: 10%;
+        }
+         .box3
+        {
+            width:30%;
+            height: 400px;
+            background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+            background-image: url(https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Poster4-1000x1000.jpg);
+	     }
+	     #bg3
+        {
+        	height: 400px;
+        	width: 10%;
+        }
+	      h2{
+	        color: black;
+	        font-size: 80PX;
+	        font-weight: 40PX;
+	        text-align: center;
+        }
+        .box4
+        {
+        	height: 50px;
+        	width: 150px;
+        	background-color: greenyellow;
+         	border: 1px solid black;
+        	display: inline-block;
+        	text-align: center;
+        	margin: 20px;
+        	padding: 20px;
+        }
+        #b1
+
+        {
+        	position: absolute;
+        	top: 55%;
+        }        
+        #b1:hover
+        {
+        	color: black;
+        	background-color: yellow;
+        	transition: 2s;
+        }
+        h5
+        {
+        	color: grey;
+	        font-size: 15PX;
+	        font-weight:15PX;
+	        text-align: left;
+	        display: flex;
+	        line-height: 30px;    
+        }
+        h4
+        {
+        	color: black;
+	        font-size: 15PX;
+	        font-weight:15PX;
+	        text-align: left;
+	        display: inline-block;
+	        font-weight: bold;
+        }
+         h3
+        {
+        	color: black;
+	        font-size: 20PX;
+	        font-weight:15PX;
+	        text-align: left;
+	        display: inline-block
+	    }
+	    .box5
+        {
+            width:20%;
+            height: 400px;
+            background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-color: white; 
+			line-height: 20px;
+		}
+		.box6
+        {
+            width:20%;
+            height: 400px;
+            background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		.box7
+        {
+            width:20%;
+            height: 400px;
+            background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		h6
+        {
+        	color: greenyellow;
+	        font-size: 50PX;
+	        font-weight:15PX;
+	        text-align: left;
+	        display: inline-block;
+	        font-weight: bold;
+		}
+		img
+	    {
+	    	border-radius: 100%;
+	    }
+	    .box8
+	    {
+	    	width:100%;
+            height: 400px;
+            background-image: url(https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Call-to-action.jpg);
+            background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			text-align: center;
+			background-attachment: fixed;
+	    }
+	    #bg4
+	    {
+	    	height:100px;
+	    	width:100%;
+        	display: flex;
+        	justify-content: space-evenly;
+        	align-items: center;
+        	font-size: 25px;
+        	font-weight: 10px;
+        }
+        #headline
+        {
+        	margin-top: 25vh;
+        }
+        #bg5
+        {
+	    	height:15px;
+	    	width:100%;
+        	display: flex;
+        	justify-content: space-evenly;
+        	align-items: center;
+        	font-size: 10px;
+        	font-weight: 10px;
+        }
+        #bg6
+        {
+        	height: 50px;
+        	width: 200px;
+        	background-color: greenyellow;
+        	border: 3px solid black;
+        	display: flex;
+        	align-items: center;
+        	text-align: center;
+        	margin: 120px auto;
+        }
+         .container1
+        {
+            width: 100%;
+            height: 200px;;
+            background-color:white;
+            display: flex;
+			justify-content: space-evenly;
+			align-items: center;         
+			overflow: hidden;
+		}
+        .box9
+        {
+            width:24%;
+            height: 50px;
+            background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			display: flex;
+			justify-content: space-evenly;
+			text-align: right;
+		}
+		#bg7
+		{
+		    color: black;
+	        font-size: 16PX;
+	        font-weight:15PX;
+	        text-align: left;
+	        display: flex;
+		}
+		#bg8
+		{
+		    color: black;
+	        font-size: 16PX;
+	        font-weight:15PX;
+	        text-align: left;
+	        display: flex;
+		}
+		#bg9
+		{
+		    color: black;
+	        font-size: 16PX;
+	        font-weight:15PX;
+	        text-align: left;
+	        display: flex;
+		}
+		#bg10
+		{
+			text-align: center;
+			font-size: 20px;
+			font-weight: 15px;
+			position: absolute;
+			top: 2810px;
+			left: 45%;
+		}
+		#bg11
+		{
+			text-align: center;
+			font-size: 20px;
+			font-weight: 15px;
+			position: absolute;
+			top: 2810px;
+			left: 75%;
+		}
+		#bg12
+		{
+			text-align: center;
+			font-size: 18px;
+			font-weight: 15px;
+			position: absolute;
+			top: 2810px;
+/*			left: 75%;*/
+		}
+</style>
+</head>
+<body>
+	<div class="box">
+	<div class="nav">
+		 <h1>EARTH STORE</h1>
+		<ul>
+    	<li><a href="#">HOME</a></li>
+    	<li><a href="#">ABOUT</a></li>
+    	<li><a href="#">SHOP</a></li>
+    	<li><a href="#">CONTACT</a></li>
+    </ul>
+</div>
+    <h2>EARTH<br>MULTIPURPOSE STORE </h2>
+    <div id="b1" class="box4">SHOP NOW</div>
+  
+</div>
+<div class="container">
+	<div class="box1">
+		<div id="bg1"></div>
+		<h5>Posters </h5>
+        <h4>Poster V1 </h4><br>
+        <h5>$23.99</h5>
+	</div>
+	<div class="box2">
+		<div id="bg2"></div>
+        <h5>Posters </h5>
+        <h4>Poster V1 </h4><br>
+        <h5>$17.99</h5>
+	</div>
+	<div class="box3">
+		<div id="bg2"></div>
+		<h5>Posters </h5>
+        <h4>Poster V1 </h4><br>
+        <h5>$14.99</h5>
+	</div>
+</div>	  
+<br><br><br><br>
+<hr color="lightgrey"><br><br><br><br>
+    <h3>What Our Customers Say</h3>
+    <div class="container">
+    <div class="box5">
+        <h6>"</h6>
+    	<h5>Fast shipping and excellent customer service. The product was even better than expected. I will definitely be a returning customer.</h5><br>
+    	<img src="img.jpeg"><br><br>
+    	<h3>Jennifer Lewis</h3>
+    </div>
+    <div class="box6">
+    	<h6>"</h6>
+    	<h5>Great user experience on your website. I found exactly what I was looking for at a great price. I will definitely be telling my friends.</h5><br>
+    	<img src="img1.jpeg"><br><br>
+    	<h3>Alicia Heart</h3>
+    </div>
+    <div class="box7">
+    	<h6>"</h6>
+    	<h5>Thank you for the excellent shopping experience. It arrived quickly and was exactly as described. I will definitely be shopping with you again in the future.</h5><br>
+    	<img src="img2.jpeg"><br><br>
+    	<h3>Juan Carlos</h3>
+    </div>
+</div>
+<div class="box8">
+	<div id="bg4">
+		<h1 id="headline">Give the Gift of a Postcard</h1>
+	</div>
+	<div id="bg5">
+		<h1 id="headline">Give the gift of a lasting memory with a postcard</h1></div><br>
+	 <div id="bg6">PURCHASE A POSTCARD</div>
+</div>	
+</div>
+<div>
+	<div class="container1">
+	<div class="box9">
+			<img src="img7.png" height="50px" width="50px">
+		<div id="bg7">Secure Payment<br>
+			All our payments our SSL secured
+		</div>
+	</div>
+		<div class="box9">
+			<img src="img7.png" height="50px" width="50px">
+		<div id="bg8">	Delivered With Care<br>
+			Super fast shipping to your door
+		</div> 
+	</div>
+		<div class="box9">
+			<img src="img7.png" height="50px" width="50px">
+	    <div id="bg9">Excellent Service <br>
+		    Live chat and phone support
+		</div>
+	</div>
+</div>
+	<hr color="lightgrey"><br><br><br><br>
+	<div id="bg10">EARTH STORE</div>
+	<div id="bg11">Copyright © 2025 Planet Earth Store</div>
+	<div id="bg12">&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;shop&nbsp;&nbsp;&nbsp;contact</div>
+</body>
+</html>
